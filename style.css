@@ -1,176 +1,241 @@
+/* General Body Styles */
 body {
-    margin: 0;
-    background: #000;
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    padding: 0 1.5em; /* Increased left and right padding */
-    box-sizing: border-box;
-  }
+    margin: 0; /* Remove default margin */
+    padding: 0 1em; /* Add horizontal padding */
+    background: #000; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Raleway', sans-serif; /* Set font */
+    font-weight: 300; /* Lighter font weight */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    min-height: 100vh; /* Ensure body takes at least full viewport height */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    overflow-x: hidden; /* Prevent horizontal scrolling on the body */
+}
 
-  header {
+/* Ensure main content area grows to fill available space */
+main {
+    flex-grow: 1; /* Allow main to expand */
+    padding: 2em 0; /* Vertical padding, no horizontal padding (handled by body) */
+    box-sizing: border-box;
+    max-width: 1200px; /* Max width for content */
+    width: 100%; /* Take full width up to max-width */
+    margin: 0 auto; /* Center the main content area */
+}
+
+/* Header Styles */
+header {
     text-align: center;
-    padding: 2em 1em;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    letter-spacing: 1px;
-  }
-  
-  .gradient-text {
+    padding: 2em 0; /* Vertical padding */
+    width: 100%; /* Ensure header takes full width */
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem; /* Heading size */
+    margin-top: 0; /* Remove default top margin */
+    margin-bottom: 1.5rem; /* Space below heading */
+    letter-spacing: 1px; /* Spacing between letters */
+}
+
+/* Animated Gradient Text */
+.gradient-text {
     background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet, red);
-    background-size: 400% 100%;
+    background-size: 400% 100%; /* Size for animation */
     -webkit-background-clip: text;
-    background-clip: text; 
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent; /* Fallback */
-    animation: rgbCycle 20s linear infinite;
-  }
+    animation: rgbCycle 20s linear infinite; /* Apply animation */
+}
 
 @keyframes rgbCycle {
     0% { background-position: 0% 50%; }
     100% { background-position: 400% 50%; }
-  }
-  
-  #search {
-    width: 80%;
-    max-width: 600px;
+}
+
+/* Search Input Styles */
+#search {
+    width: 80%; /* Relative width */
+    max-width: 600px; /* Max width */
     padding: 0.75em;
     background: transparent;
     border: 1px solid #333;
     border-radius: 5px;
     color: #ffffff;
     font-size: 1.1em;
-    font-family: inherit;
+    font-family: inherit; /* Use body font */
     text-align: center;
-  }
-  
-  main {
-    padding: 2em 12em;
-    box-sizing: border-box;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+    box-sizing: border-box; /* Include padding in width */
+}
 
-  @media (max-width: 800px) {
-    body {
-      padding: 0 0.5em;
-    }
-  
-    main {
-      padding: 1em 0.5em;
-      max-width: 100vw;
-    }
-  
-    .section-grid {
-      grid-template-columns: 1fr;
-      gap: 2em;
-    }
-  }
-  
-  @media (max-width: 500px) {
-    h1 {
-      font-size: 1.3rem;
-    }
-  
-    #search {
-      width: 100%;
-      font-size: 1em;
-      padding: 0.6em;
-    }
-  
-    section h2 {
-      font-size: 1rem;
-    }
-  }
-  
-  #favorites {
-    margin-bottom: 3em;
-  }
-  
-  .favorites-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-  }
-  
-  .section-grid {
+/* Favorites Section Styles */
+#favorites {
+    margin-bottom: 3em; /* Space below favorites */
+    /* Favorites section itself doesn't need grid layout, only its inner link-list */
+}
+
+/* Style for the list within the favorites section */
+/* No specific grid needed here unless a multi-column layout for favorites *items* is desired */
+/* The .link-item styles below handle the appearance of individual favorite links */
+
+/* Main Sections Grid Layout */
+.section-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 4em;
-  }
-  
-  section h2 {
+    /* Default to 2 columns */
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Use minmax(0, 1fr) for better flexbility */
+    gap: 2em; /* Gap between grid items */
+    width: 100%; /* Full width */
+    box-sizing: border-box;
+}
+
+/* Section Styles */
+section {
+    /* Styles for individual sections within the grid */
+    box-sizing: border-box;
+    min-width: 0; /* Prevent sections from causing overflow in the grid */
+}
+
+section h2 {
     font-size: 1.2rem;
     font-weight: 600;
     color: #ffffff;
+    margin-top: 0; /* Remove default top margin */
     margin-bottom: 1em;
     border-bottom: 1px solid #333;
     padding-bottom: 0.25em;
-  }
-  
-  .link-list {
+    /* Prevent title itself from wrapping if needed, though less common */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Link List Styles (within each section, including favorites) */
+.link-list {
     display: flex;
-    flex-direction: column;
-    gap: 1em;
-  }
-  
-  .link-item {
+    flex-direction: column; /* Stack links vertically */
+    gap: 1em; /* Space between link items */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Individual Link Item Styles (Applies to ALL link items, including favorites) */
+.link-item {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .link-item a {
-    color: #0ff;
+    justify-content: space-between; /* Space out link and star */
+    align-items: center; /* Vertically align items */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.25em; /* Small horizontal padding */
+    min-width: 0; /* Prevent flex items from overflowing */
+}
+
+/* Link Text Styles (Applies to ALL links, including favorites) */
+.link-item a {
+    color: #0ff; /* Cyan color */
     text-decoration: none;
     font-size: 1.1em;
-  }
-  
-  .link-item a:hover {
-    text-decoration: underline;
-  }
-  
-  .star-button {
+    flex: 1 1 auto; /* Allow link to grow and shrink */
+    min-width: 0; /* Prevent link text from causing overflow */
+    margin-right: 0.5em; /* Space between link and star */
+    /* Prevent wrapping and add ellipsis for overflow */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.link-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Star Button Styles */
+.star-button {
     background: none;
     border: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
     cursor: pointer;
-    color: #444;
-    margin-left: 1em;
-    padding: 0;
-  }
-  
-  .star-button.favorited {
-    color: #ff0;
-  }
-  
-  footer {
+    color: #444; /* Default star color */
+    padding: 0; /* Remove default padding */
+    flex: 0 0 auto; /* Prevent star from growing or shrinking */
+    margin-left: 0.5em; /* Ensure space if link text is short */
+}
+
+.star-button.favorited {
+    color: #ff0; /* Yellow color for favorited */
+}
+
+/* Footer Styles */
+footer {
     text-align: center;
-    margin-top: 4em;
-    padding: 2em 1em;
+    margin-top: 4em; /* Space above footer */
+    padding: 2em 1em; /* Padding */
     font-size: 0.9em;
-    color: #666;
-    border-top: 1px solid #222;
-  }
-  
-  footer a {
-    color: #0ff;
+    color: #666; /* Dim text color */
+    border-top: 1px solid #222; /* Separator line */
+    width: 100%; /* Full width */
+    box-sizing: border-box;
+}
+
+footer a {
+    color: #0ff; /* Cyan link color */
     text-decoration: none;
-    display: inline-flex;
+    display: inline-flex; /* Align icon and text */
     align-items: center;
-    gap: 0.5em;
+    gap: 0.5em; /* Space between icon and text */
     font-weight: 400;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     text-decoration: underline;
-  }
-  
-  footer img {
-    width: 20px;
+}
+
+footer img {
+    width: 20px; /* Icon size */
     height: 20px;
-    vertical-align: middle;
-  }
+    vertical-align: middle; /* Align icon with text */
+}
+
+/* --- Media Queries for Responsiveness --- */
+
+/* Medium Screens and Smaller (e.g., Tablets, Mobile) - Switch to 1 column */
+@media (max-width: 768px) { /* Adjusted breakpoint for 1-column switch */
+    .section-grid {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 1.5em; /* Adjust gap */
+    }
+}
+
+/* Small Screens (e.g., Mobile) - Further adjustments */
+@media (max-width: 500px) {
+    body {
+        padding: 0 0.5em; /* Reduce body padding */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Smaller heading */
+    }
+
+    #search {
+        width: 95%; /* Increase width closer to full */
+        font-size: 1em;
+        padding: 0.6em;
+    }
+
+    main {
+        padding: 1em 0; /* Reduce main padding */
+    }
+
+    section h2 {
+        font-size: 1.1rem; /* Slightly smaller section titles */
+    }
+
+    .link-item a {
+        font-size: 1em; /* Slightly smaller link font */
+    }
+
+    footer {
+        margin-top: 2em; /* Reduce space above footer */
+        padding: 1.5em 0.5em;
+        font-size: 0.85em;
+    }
+}
