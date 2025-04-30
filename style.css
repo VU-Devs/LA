@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background: #000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2em 1em;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet, red);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Fallback */
+    animation: rgbCycle 20s linear infinite;
+  }
+
+@keyframes rgbCycle {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 400% 50%; }
+  }
+  
+  #search {
+    width: 80%;
+    max-width: 600px;
+    padding: 0.75em;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-family: inherit;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2em 1.5em;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #favorites {
+    margin-bottom: 3em;
+  }
+  
+  .favorites-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 4em;
+  }
+  
+  section h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.25em;
+  }
+  
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .link-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .link-item a {
+    color: #0ff;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .link-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .star-button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #444;
+    margin-left: 1em;
+    padding: 0;
+  }
+  
+  .star-button.favorited {
+    color: #ff0;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 4em;
+    padding: 2em 1em;
+    font-size: 0.9em;
+    color: #666;
+    border-top: 1px solid #222;
+  }
+  
+  footer a {
+    color: #0ff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: 400;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
