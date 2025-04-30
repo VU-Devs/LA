@@ -6,7 +6,7 @@ Thanks for your interest in improving the Link Aggregator!
 
 This project is a simple link aggregator for organizing course links, projects, or tools. It is meant to be simple and easy to add links to. Please do not add any complex features or frameworks. The goal is to keep it lightweight and deployable on GitHub Pages without any additional setup.
 
-I am however open to suggestions on adding more links and reorganising existing ones. If you are unsure about a change, feel free to open an issue for triage or contact me directly.
+I am, however, open to suggestions on adding more links and reorganising existing ones. If you are unsure about a change, feel free to open an issue for triage or contact me directly.
 
 ## How to Add a New Link
 
