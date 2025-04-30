@@ -1,15 +1,24 @@
 const links = {
-  "Semester 1": [
-    { title: "Calculus I", url: "https://example.com/calculus1" },
-    { title: "Physics I", url: "https://example.com/physics1" },
+  "Essentials": [
+    { title: "Canvas", url: "https://canvas.vu.nl/" },
+    { title: "CS Hub", url: "https://cs-hub.notion.site/" },
+    { title: "Study Guide", url: "https://studiegids.vu.nl/en#/" },
   ],
-  "Semester 2": [
-    { title: "Calculus II", url: "https://example.com/calculus2" },
-    { title: "Physics II", url: "https://example.com/physics2" },
+  "Lab Manuals": [
+    { title: "Computer Networks Lab Manual", url: "https://computerscienceeducation.gitbook.io/computer-networks-lab-manual" },
+    { title: "Computer Organisation Lab Manual", url: "https://computerscienceeducation.gitbook.io/co-lab-manual" },
   ],
-  Projects: [
-    { title: "AI Project", url: "https://example.com/ai" },
-    { title: "Web Project", url: "https://example.com/web" },
+  "Onboarding": [
+    { title: "VU Dashboard", url: "https://vu.nl/en/dashboard" },
+    { title: "Student Immigration", url: "http://studentimmigration.vu.nl/" },
+    { title: "Unofficial Y1 TU Delft Incoming Guidance", url: "https://docs.google.com/document/d/1y9kRZ5H1UIEsEbEe1jOKZiS72GPqX-wa3Na4-3uMb4E/edit?tab=t.y13v59u66kpb#heading=h.cjd47meacr5n" },
+  ],
+  "GitHub / GitLab Orgs": [
+    { title: "AtLarge CO/CN Github", url: "https://github.com/ComputerScienceEducation" },
+    { title: "VU IVM", url: "https://github.com/VU-IVM" },
+  ],
+  "Misc": [
+    { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
   ],
 };
 
