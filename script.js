@@ -5,7 +5,7 @@ const links = {
     { title: "Study Guide", url: "https://studiegids.vu.nl/en#/" },
     { title: "VU Books", url: "https://www.vuboekhandel.nl/app/ds/dssufsea1.p?language=4&level=1&btnSearch=true&cboinsti=1"},
     { title: "Timetable", url: "https://rooster.vu.nl/schedule"},
-    
+
   ],
 
   "Lab Manuals / Course Sites": [
@@ -46,6 +46,7 @@ const links = {
   ],
 
   "Misc": [
+    { title: "VU Link Aggregator", url: "https://vu-devs.github.io/LA/"},
     { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
   ],
 };
