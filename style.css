@@ -53,6 +53,15 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  @media (max-width: 600px) {
+    body {
+      padding: 0 1em;
+    }
+    main {
+      padding: 2em 0.5em;
+    }
+  }
   
   #favorites {
     margin-bottom: 3em;
