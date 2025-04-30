@@ -13,6 +13,7 @@ const links = {
     { title: "VU Dashboard", url: "https://vu.nl/en/dashboard" },
     { title: "Student Immigration", url: "http://studentimmigration.vu.nl/" },
     { title: "Unofficial Y1 TU Delft Incoming Guidance", url: "https://docs.google.com/document/d/1y9kRZ5H1UIEsEbEe1jOKZiS72GPqX-wa3Na4-3uMb4E/edit?tab=t.y13v59u66kpb#heading=h.cjd47meacr5n" },
+    { title: "VU / CS / AMS Guide by Applesauce", url: "https://csdiscdocs.gitbook.io/vu-cs-amst-guide"}
   ],
   "GitHub / GitLab Orgs": [
     { title: "AtLarge CO/CN Github", url: "https://github.com/ComputerScienceEducation" },
