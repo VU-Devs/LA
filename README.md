@@ -4,7 +4,13 @@ A super simple, minimal, mobile-friendly link aggregator built with HTML, CSS, a
 
 Inspired by [TUM.sexy](https://tum.sexy)
 
-![screenshot](./static/screenshots/Desktop.png) 
+<table>
+  <tr>
+    <td><img src="./static/screenshots/Desktop.png" alt="Desktop Screenshot" width="400"/></td>
+    <td><img src="./static/screenshots/Mobile.jpg" alt="Mobile Screenshot" width="200"/></td>
+  </tr>
+</table>
+
 
 ## ⚠️ Disclaimer
 This is not an official Vrije University project. This is a personal project. Also I have used AI tools to help me with style.css since I'm too dumb to figure out how to make it look good on mobile. 
