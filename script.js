@@ -14,15 +14,20 @@ const links = {
     { title: "Studielink", url: "https://www.studielink.nl/" },
     { title: "Student Immigration", url: "http://studentimmigration.vu.nl/" },
     { title: "Unofficial Y1 TU Delft Incoming Guidance", url: "https://docs.google.com/document/d/1y9kRZ5H1UIEsEbEe1jOKZiS72GPqX-wa3Na4-3uMb4E/edit?tab=t.y13v59u66kpb#heading=h.cjd47meacr5n" },
-    { title: "VU / CS / AMS Guide by Applesauce", url: "https://csdiscdocs.gitbook.io/vu-cs-amst-guide"}
+    { title: "VU / CS / AMS Guide by Applesauce", url: "https://csdiscdocs.gitbook.io/vu-cs-amst-guide"},
+    { title: "Github Education Pack", url: "https://education.github.com/pack"},
   ],
   "GitHub / GitLab / Orgs": [
     { title: "AtLarge CO/CN Github", url: "https://github.com/ComputerScienceEducation" },
-    { title: "VU IVM", url: "https://github.com/VU-IVM" },
-    { title: "Machine Learning @ VU", url: "https://github.com/mlvu"},
-    { title: "VU-Programming", url: "https://github.com/VU-Programming" },
-    {title: "VU HPDC (High Performance Distributed Computing)", url:"https://www.vuhpdc.net/"},
+    { title: "VU IVM Github", url: "https://github.com/VU-IVM" },
+    { title: "Machine Learning @ VU Github", url: "https://github.com/mlvu"},
+    { title: "VU Programming Github", url: "https://github.com/VU-Programming" },
+    { title: "VU StudSec Github", url: "https://github.com/StudSec/"},
+    { title: "VU HPDC (High Performance Distributed Computing)", url:"https://www.vuhpdc.net/"},
+    { title: "VU Studsec (Student Security)", url: "https://studsec.nl/"},
+    { title: "VU Sec (Systems and Network Security Group)", url: "https://www.vusec.net/"},
   ],
+
   "Socials": [
     { title: "Icarus (Philosophy Student Club)", url: "https://www.instagram.com/vu.icarus/" },
     { title: "VU Pride", url: "https://linktr.ee/VUpride" },
