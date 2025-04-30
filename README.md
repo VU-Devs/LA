@@ -1,4 +1,3 @@
-```md
 # Vrije University Link Aggregator
 
 A super simple, minimal, mobile-friendly link aggregator built with HTML, CSS, and JavaScript — perfect for organizing your course links, projects, or tools.
