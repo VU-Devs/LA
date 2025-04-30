@@ -1,16 +1,16 @@
 const links = {
   "Semester 1": [
     { title: "Calculus I", url: "https://example.com/calculus1" },
-    { title: "Physics I", url: "https://example.com/physics1" }
+    { title: "Physics I", url: "https://example.com/physics1" },
   ],
   "Semester 2": [
     { title: "Calculus II", url: "https://example.com/calculus2" },
-    { title: "Physics II", url: "https://example.com/physics2" }
+    { title: "Physics II", url: "https://example.com/physics2" },
   ],
-  "Projects": [
+  Projects: [
     { title: "AI Project", url: "https://example.com/ai" },
-    { title: "Web Project", url: "https://example.com/web" }
-  ]
+    { title: "Web Project", url: "https://example.com/web" },
+  ],
 };
 
 const FAVORITE_KEY = "favoritedLinks";
@@ -26,7 +26,7 @@ function isFavorited(url) {
 
 function toggleFavorite(url) {
   if (isFavorited(url)) {
-    favorites = favorites.filter(fav => fav !== url);
+    favorites = favorites.filter((fav) => fav !== url);
   } else {
     favorites.push(url);
   }
@@ -64,8 +64,8 @@ function renderSection(name, linksArray, filter) {
   list.className = "link-list";
 
   linksArray
-    .filter(link => link.title.toLowerCase().includes(filter))
-    .forEach(link => list.appendChild(createLinkElement(link)));
+    .filter((link) => link.title.toLowerCase().includes(filter))
+    .forEach((link) => list.appendChild(createLinkElement(link)));
 
   section.appendChild(title);
   section.appendChild(list);
@@ -74,7 +74,7 @@ function renderSection(name, linksArray, filter) {
 
 function renderAll(filter = "") {
   const allLinks = Object.values(links).flat();
-  const favLinks = allLinks.filter(link => isFavorited(link.url));
+  const favLinks = allLinks.filter((link) => isFavorited(link.url));
   const favoritesContainer = document.getElementById("favorites");
   const sectionsContainer = document.getElementById("sections");
 
@@ -88,12 +88,19 @@ function renderAll(filter = "") {
   }
 
   for (const [name, list] of Object.entries(links)) {
-    sectionsContainer.appendChild(renderSection(name, list, filter));
+    const filteredList = list.filter((link) =>
+      link.title.toLowerCase().includes(filter)
+    );
+    if (filteredList.length > 0) {
+      sectionsContainer.appendChild(renderSection(name, filteredList, filter));
+    }
   }
 }
 
-document.getElementById("search").addEventListener("input", e =>
-  renderAll(e.target.value.toLowerCase())
-);
+document
+  .getElementById("search")
+  .addEventListener("input", (e) =>
+    renderAll(e.target.value.toLowerCase())
+  );
 
 renderAll();
