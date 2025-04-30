@@ -3,12 +3,17 @@ const links = {
     { title: "Canvas", url: "https://canvas.vu.nl/" },
     { title: "CS Hub", url: "https://cs-hub.notion.site/" },
     { title: "Study Guide", url: "https://studiegids.vu.nl/en#/" },
+    { title: "VU Books", url: "https://www.vuboekhandel.nl/app/ds/dssufsea1.p?language=4&level=1&btnSearch=true&cboinsti=1"},
+    { title: "Timetable", url: "https://rooster.vu.nl/schedule"},
+    
   ],
+
   "Lab Manuals / Course Sites": [
     { title: "Computer Networks Lab Manual", url: "https://computerscienceeducation.gitbook.io/computer-networks-lab-manual" },
     { title: "Computer Organisation Lab Manual", url: "https://computerscienceeducation.gitbook.io/co-lab-manual" },
     { title: "Machine Learning", url: "https://mlvu.github.io/"}
   ],
+
   "Onboarding": [
     { title: "VU Dashboard", url: "https://vu.nl/en/dashboard" },
     { title: "Studielink", url: "https://www.studielink.nl/" },
@@ -17,6 +22,7 @@ const links = {
     { title: "VU / CS / AMS Guide by Applesauce", url: "https://csdiscdocs.gitbook.io/vu-cs-amst-guide"},
     { title: "Github Education Pack", url: "https://education.github.com/pack"},
   ],
+
   "GitHub / GitLab / Orgs": [
     { title: "AtLarge CO/CN Github", url: "https://github.com/ComputerScienceEducation" },
     { title: "VU IVM Github", url: "https://github.com/VU-IVM" },
@@ -34,7 +40,11 @@ const links = {
     { title: "NDSA (Neurodiverse Student Association)", url: "https://linktr.ee/nd.sa" },
     { title: "Boosted Griffins (Gaming Group)", url: "https://www.instagram.com/boostedgryffins/" },
     { title: "Minescie (Minecraft)", url: "https://linktr.ee/minescie" },
+    { title: "VU CS Discord", url: "https://discord.gg/MGG72qsKrn"},
+    { title: "3D - VU (Gaming Discord)", url: "https://discord.gg/Ymae4vZ22s"},
+    { title: "StudSec Discord", url: "https://url.studsec.nl/discord" },
   ],
+
   "Misc": [
     { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
   ],
