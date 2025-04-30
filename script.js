@@ -49,6 +49,10 @@ const links = {
     { title: "VU Link Aggregator", url: "https://vu-devs.github.io/LA/"},
     { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
   ],
+
+  "Archived": [
+    { title: "Storage Systems Slides (No longer taught)", url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT" },
+  ]
 };
 
 const FAVORITE_KEY = "favoritedLinks";
