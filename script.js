@@ -4,9 +4,10 @@ const links = {
     { title: "CS Hub", url: "https://cs-hub.notion.site/" },
     { title: "Study Guide", url: "https://studiegids.vu.nl/en#/" },
   ],
-  "Lab Manuals": [
+  "Lab Manuals / Course Sites": [
     { title: "Computer Networks Lab Manual", url: "https://computerscienceeducation.gitbook.io/computer-networks-lab-manual" },
     { title: "Computer Organisation Lab Manual", url: "https://computerscienceeducation.gitbook.io/co-lab-manual" },
+    { title: "Machine Learning", url: "https://mlvu.github.io/"}
   ],
   "Onboarding": [
     { title: "VU Dashboard", url: "https://vu.nl/en/dashboard" },
@@ -16,6 +17,7 @@ const links = {
   "GitHub / GitLab Orgs": [
     { title: "AtLarge CO/CN Github", url: "https://github.com/ComputerScienceEducation" },
     { title: "VU IVM", url: "https://github.com/VU-IVM" },
+    { title: "Machine Learning @ VU", url: "https://github.com/mlvu"}
   ],
   "Misc": [
     { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
