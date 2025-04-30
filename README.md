@@ -6,6 +6,9 @@ Inspired by [TUM.sexy](https://tum.sexy)
 
 ![screenshot](./static/screenshots/Desktop.png) 
 
+## ⚠️ Disclaimer
+This is not an official Vrije University project. This is a personal project. Also I have used AI tools to help me with style.css since I'm too dumb to figure out how to make it look good on mobile. 
+
 ## 🚀 Features
 
 - Dark futuristic theme with RGB-animated title
