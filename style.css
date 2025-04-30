@@ -4,10 +4,10 @@ body {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    padding: 0;
+    padding: 0 1.5em; /* Increased left and right padding */
     box-sizing: border-box;
   }
-  
+
   header {
     text-align: center;
     padding: 2em 1em;
@@ -48,7 +48,7 @@ body {
   }
   
   main {
-    padding: 2em 1.5em;
+    padding: 2em 12em;
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
