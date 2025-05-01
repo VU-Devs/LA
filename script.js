@@ -5,7 +5,7 @@ const links = {
     { title: "Study Guide", url: "https://studiegids.vu.nl/en#/" },
     { title: "VU Books", url: "https://www.vuboekhandel.nl/app/ds/dssufsea1.p?language=4&level=1&btnSearch=true&cboinsti=1"},
     { title: "Timetable", url: "https://rooster.vu.nl/schedule"},
-
+    { title: "Academic Calender", url: "https://vu.nl/en/education/more-about/academic-calendar"},
   ],
 
   "Lab Manuals / Course Sites": [
