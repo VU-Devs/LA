@@ -48,10 +48,19 @@ const links = {
   "Misc": [
     { title: "VU Link Aggregator", url: "https://vu-devs.github.io/LA/"},
     { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
+    { title: "Books", url: "https://drive.google.com/drive/folders/1-mRDM9CoQKjDGkRMUBlgEsw7lgkex49v"},
+
+  ],
+
+  "Lectures": [
+    { title: "Pervasive Computing", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoFLNbdDAT845-pY5VNbNbf" },
+    { title: "Computer Networks", url: "https://www.youtube.com/playlist?list=PLAG9l-FNroVriSKJZH6Loo_hxQRr6PGRo" },
+
   ],
 
   "Archived": [
     { title: "Storage Systems Slides (No longer taught)", url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT" },
+    { title: "NG Lectures", url: "https://drive.google.com/drive/folders/1kYJ9NvsZ7u0vRu4o4KhAH5ocGqexYj16"}
   ]
 };
 
