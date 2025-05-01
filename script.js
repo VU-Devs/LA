@@ -57,6 +57,7 @@ const links = {
     { title: "History of Science", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpZpQjZ8K5QxywsKqp0OzsP"},
     { title: "Object Oriented Funcional Programming", url: "https://www.youtube.com/playlist?list=PLi-VVX8q87FL9tRKOmkCKitubGyr4OdYR" },
     { title: "Automata Theory Course", url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478cNgQa7UTnEdFkXzii5CII"},
+    { title: "Compiler Construction", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwonksLKVQwHMF8cJ1FSXyy2"},
     { title: "[Masters] Transformers Lecture 12 ", url: "https://www.youtube.com/playlist?list=PLIXJ-Sacf8u60G1TwcznBmK6rEL3gmZmV"},
     { title: "[External] Theory of Computation and Automata", url: "https://youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&si=y3dGXp0kHO0W5god"},
     { title: "[External] Databases", url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO"},
