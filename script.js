@@ -11,7 +11,8 @@ const links = {
   "Lab Manuals / Course Sites": [
     { title: "Computer Networks Lab Manual", url: "https://computerscienceeducation.gitbook.io/computer-networks-lab-manual" },
     { title: "Computer Organisation Lab Manual", url: "https://computerscienceeducation.gitbook.io/co-lab-manual" },
-    { title: "Machine Learning", url: "https://mlvu.github.io/"}
+    { title: "Machine Learning", url: "https://mlvu.github.io/"},
+    { title: "Systems Programming", url: "https://vu-oofp.gitlab.io/website/" },
   ],
 
   "Onboarding": [
@@ -53,14 +54,24 @@ const links = {
   ],
 
   "Lectures": [
-    { title: "Pervasive Computing", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoFLNbdDAT845-pY5VNbNbf" },
-    { title: "Computer Networks", url: "https://www.youtube.com/playlist?list=PLAG9l-FNroVriSKJZH6Loo_hxQRr6PGRo" },
-
+    { title: "Pervasive Computing 2021", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoFLNbdDAT845-pY5VNbNbf" },
+    { title: "Computer Networks 2021-2022", url: "https://www.youtube.com/playlist?list=PLAG9l-FNroVriSKJZH6Loo_hxQRr6PGRo" },
+    { title: "Secure Programming 2022", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpIKNDwGJwGrbboSQ7s6_TX"},
+    { title: "Advanced Networks Programming 2022", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwp4u1BbRfjAqOPf85x-NIFL"},
+    { title: "History of Science", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpZpQjZ8K5QxywsKqp0OzsP"},
+    { title: "Object Oriented Funcional Programming", url: "https://www.youtube.com/playlist?list=PLi-VVX8q87FL9tRKOmkCKitubGyr4OdYR" },
+    { title: "[Masters] Transformers Lecture 12 ", url: "https://www.youtube.com/playlist?list=PLIXJ-Sacf8u60G1TwcznBmK6rEL3gmZmV"},
+    { title: "[External] Theory of Computation and Automata", url: "https://youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&si=y3dGXp0kHO0W5god"},
+    { title: "[External] Databases", url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO"},
+    { title: "[External] The Art of Multiprocessor programming", url: "https://www.youtube.com/playlist?list=PLbsY-4I8oat9o7p4re3308L4uk0YJe8ez"},
+    { title: "[External Category Theory]", url: "https://www.youtube.com/playlist?app=desktop&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_"},
+    
   ],
 
   "Archived": [
     { title: "Storage Systems Slides (No longer taught)", url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT" },
-    { title: "NG Lectures", url: "https://drive.google.com/drive/folders/1kYJ9NvsZ7u0vRu4o4KhAH5ocGqexYj16"}
+    { title: "NG Lectures", url: "https://drive.google.com/drive/folders/1kYJ9NvsZ7u0vRu4o4KhAH5ocGqexYj16"},
+    { title: "Object Oriented Kickoff", url: "https://docs.google.com/presentation/d/1fPS0RPnBqtMI9V6HB5G6yh0KsiyCC9kWCKRe8b-500U/edit?slide=id.g2fad02caa80_45_0#slide=id.g2fad02caa80_45_0"},
   ]
 };
 
