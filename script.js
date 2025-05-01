@@ -13,6 +13,7 @@ const links = {
     { title: "Computer Organisation Lab Manual", url: "https://computerscienceeducation.gitbook.io/co-lab-manual" },
     { title: "Machine Learning", url: "https://mlvu.github.io/"},
     { title: "Systems Programming", url: "https://vu-oofp.gitlab.io/website/" },
+    { title: "Databases", url: "https://joerg.endrullis.de/databases/"},
   ],
 
   "Onboarding": [
@@ -46,13 +47,6 @@ const links = {
     { title: "StudSec Discord", url: "https://url.studsec.nl/discord" },
   ],
 
-  "Misc": [
-    { title: "VU Link Aggregator", url: "https://vu-devs.github.io/LA/"},
-    { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
-    { title: "Books", url: "https://drive.google.com/drive/folders/1-mRDM9CoQKjDGkRMUBlgEsw7lgkex49v"},
-
-  ],
-
   "Lectures": [
     { title: "Pervasive Computing 2021", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoFLNbdDAT845-pY5VNbNbf" },
     { title: "Computer Networks 2021-2022", url: "https://www.youtube.com/playlist?list=PLAG9l-FNroVriSKJZH6Loo_hxQRr6PGRo" },
@@ -75,7 +69,14 @@ const links = {
     { title: "Storage Systems Slides (No longer taught)", url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT" },
     { title: "NG Lectures", url: "https://drive.google.com/drive/folders/1kYJ9NvsZ7u0vRu4o4KhAH5ocGqexYj16"},
     { title: "Object Oriented Kickoff", url: "https://docs.google.com/presentation/d/1fPS0RPnBqtMI9V6HB5G6yh0KsiyCC9kWCKRe8b-500U/edit?slide=id.g2fad02caa80_45_0#slide=id.g2fad02caa80_45_0"},
-  ]
+  ],
+
+  "Misc": [
+    { title: "VU Link Aggregator", url: "https://vu-devs.github.io/LA/"},
+    { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
+    { title: "Books", url: "https://drive.google.com/drive/folders/1-mRDM9CoQKjDGkRMUBlgEsw7lgkex49v"},
+
+  ],
 };
 
 const FAVORITE_KEY = "favoritedLinks";
