@@ -1,5 +1,6 @@
 const links = {
   "Essentials": [
+    { title: "VU Dashboard", url: "https://vu.nl/en/dashboard" },
     { title: "Canvas", url: "https://canvas.vu.nl/" },
     { title: "CS Hub", url: "https://cs-hub.notion.site/" },
     { title: "Study Guide", url: "https://studiegids.vu.nl/en#/" },
@@ -17,7 +18,6 @@ const links = {
   ],
 
   "Onboarding": [
-    { title: "VU Dashboard", url: "https://vu.nl/en/dashboard" },
     { title: "Studielink", url: "https://www.studielink.nl/" },
     { title: "Student Immigration", url: "http://studentimmigration.vu.nl/" },
     { title: "Unofficial Y1 TU Delft Incoming Guidance", url: "https://docs.google.com/document/d/1y9kRZ5H1UIEsEbEe1jOKZiS72GPqX-wa3Na4-3uMb4E/edit?tab=t.y13v59u66kpb#heading=h.cjd47meacr5n" },
