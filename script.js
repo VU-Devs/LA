@@ -37,12 +37,14 @@ const links = {
   ],
 
   "Socials": [
+    { title: "VU Reddit", url: "https://www.reddit.com/r/VUAmsterdam/" },
+    { title: "VU CS Discord", url: "https://discord.gg/MGG72qsKrn"},
+    { title: "2025 CS Whatssap Group", url: "https://chat.whatsapp.com/HfHTgsechBVCP0xEO1Ez8g" },
     { title: "Icarus (Philosophy Student Club)", url: "https://www.instagram.com/vu.icarus/" },
     { title: "VU Pride", url: "https://linktr.ee/VUpride" },
     { title: "NDSA (Neurodiverse Student Association)", url: "https://linktr.ee/nd.sa" },
     { title: "Boosted Griffins (Gaming Group)", url: "https://www.instagram.com/boostedgryffins/" },
     { title: "Minescie (Minecraft)", url: "https://linktr.ee/minescie" },
-    { title: "VU CS Discord", url: "https://discord.gg/MGG72qsKrn"},
     { title: "3D - VU (Gaming Discord)", url: "https://discord.gg/Ymae4vZ22s"},
     { title: "StudSec Discord", url: "https://url.studsec.nl/discord" },
   ],
