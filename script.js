@@ -58,6 +58,7 @@ const links = {
     { title: "Object Oriented Funcional Programming", url: "https://www.youtube.com/playlist?list=PLi-VVX8q87FL9tRKOmkCKitubGyr4OdYR" },
     { title: "Automata Theory Course", url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478cNgQa7UTnEdFkXzii5CII"},
     { title: "Compiler Construction", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwonksLKVQwHMF8cJ1FSXyy2"},
+    { title: "Networks and Graphs Lectures", url: "https://drive.google.com/drive/folders/1kYJ9NvsZ7u0vRu4o4KhAH5ocGqexYj16"},
     { title: "[Masters] Transformers Lecture 12 ", url: "https://www.youtube.com/playlist?list=PLIXJ-Sacf8u60G1TwcznBmK6rEL3gmZmV"},
     { title: "[External] Theory of Computation and Automata", url: "https://youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&si=y3dGXp0kHO0W5god"},
     { title: "[External] Databases", url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO"},
@@ -70,7 +71,6 @@ const links = {
 
   "Archived": [
     { title: "Storage Systems Slides (No longer taught)", url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT" },
-    { title: "NG Lectures", url: "https://drive.google.com/drive/folders/1kYJ9NvsZ7u0vRu4o4KhAH5ocGqexYj16"},
     { title: "Object Oriented Functional Programming Kickoff", url: "https://docs.google.com/presentation/d/1fPS0RPnBqtMI9V6HB5G6yh0KsiyCC9kWCKRe8b-500U/edit?slide=id.g2fad02caa80_45_0#slide=id.g2fad02caa80_45_0"},
   ],
 
