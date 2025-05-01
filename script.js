@@ -60,12 +60,15 @@ const links = {
     { title: "Advanced Networks Programming 2022", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwp4u1BbRfjAqOPf85x-NIFL"},
     { title: "History of Science", url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpZpQjZ8K5QxywsKqp0OzsP"},
     { title: "Object Oriented Funcional Programming", url: "https://www.youtube.com/playlist?list=PLi-VVX8q87FL9tRKOmkCKitubGyr4OdYR" },
+    { title: "Automata Theory Course", url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478cNgQa7UTnEdFkXzii5CII"},
     { title: "[Masters] Transformers Lecture 12 ", url: "https://www.youtube.com/playlist?list=PLIXJ-Sacf8u60G1TwcznBmK6rEL3gmZmV"},
     { title: "[External] Theory of Computation and Automata", url: "https://youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&si=y3dGXp0kHO0W5god"},
     { title: "[External] Databases", url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO"},
     { title: "[External] The Art of Multiprocessor programming", url: "https://www.youtube.com/playlist?list=PLbsY-4I8oat9o7p4re3308L4uk0YJe8ez"},
     { title: "[External Category Theory]", url: "https://www.youtube.com/playlist?app=desktop&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_"},
-    
+    { title: "[External] Linear Algebra Organic Chem Tutor", url: "https://www.youtube.com/playlist?list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_"},
+    { title: "[External] Intro to x86 Assembly", url: "https://youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe"},
+
   ],
 
   "Archived": [
