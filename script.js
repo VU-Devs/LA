@@ -68,7 +68,7 @@ const links = {
   "Archived": [
     { title: "Storage Systems Slides (No longer taught)", url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT" },
     { title: "NG Lectures", url: "https://drive.google.com/drive/folders/1kYJ9NvsZ7u0vRu4o4KhAH5ocGqexYj16"},
-    { title: "Object Oriented Kickoff", url: "https://docs.google.com/presentation/d/1fPS0RPnBqtMI9V6HB5G6yh0KsiyCC9kWCKRe8b-500U/edit?slide=id.g2fad02caa80_45_0#slide=id.g2fad02caa80_45_0"},
+    { title: "Object Oriented Functional Programming Kickoff", url: "https://docs.google.com/presentation/d/1fPS0RPnBqtMI9V6HB5G6yh0KsiyCC9kWCKRe8b-500U/edit?slide=id.g2fad02caa80_45_0#slide=id.g2fad02caa80_45_0"},
   ],
 
   "Misc": [
