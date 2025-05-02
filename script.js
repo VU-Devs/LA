@@ -16,6 +16,7 @@ const links = {
     { title: "Deep Learning", url: "https://dlvu.github.io/"},
     { title: "Systems Programming", url: "https://vu-oofp.gitlab.io/website/" },
     { title: "Databases", url: "https://joerg.endrullis.de/databases/"},
+    { title: "Prof. Joerg Endrullis's Courses", url: "https://joerg.endrullis.de/teaching/" },
   ],
 
   "Onboarding": [
