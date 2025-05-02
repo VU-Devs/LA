@@ -38,6 +38,11 @@ h1 {
     letter-spacing: 1px; /* Spacing between letters */
 }
 
+p {
+    color: #a7a7a7;
+}
+
+
 /* Animated Gradient Text */
 .gradient-text {
     background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet, red);
