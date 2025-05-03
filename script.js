@@ -7,6 +7,9 @@ const links = {
     { title: "VU Books", url: "https://www.vuboekhandel.nl/app/ds/dssufsea1.p?language=4&level=1&btnSearch=true&cboinsti=1"},
     { title: "Timetable", url: "https://rooster.vu.nl/schedule"},
     { title: "Academic Calender", url: "https://vu.nl/en/education/more-about/academic-calendar"},
+    { title: "Reserve a study spot", url: "https://pleq.vu.nl/studyspot?building=nu-gebouw"},
+    { title: "VU Library", url: "https://vu.on.worldcat.org/discovery"},
+
   ],
 
   "Lab Manuals / Course Sites": [
@@ -81,6 +84,11 @@ const links = {
     { title: "VU Link Aggregator", url: "https://vu-devs.github.io/LA/"},
     { title: "VU Services Uptime", url: "https://stats.uptimerobot.com/1QklV7XO7U" },
     { title: "Books", url: "https://drive.google.com/drive/folders/1-mRDM9CoQKjDGkRMUBlgEsw7lgkex49v"},
+    { title: "VU Magazine", url: "https://advalvas.vu.nl/"},
+    { title: "Theft Infographic", url: "https://assets-us-01.kc-usercontent.com/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/4a68800b-0674-4e82-bcd5-0d6853129e9f/Folder_Diefstal_ENG_tcm270-868120.pdf"},
+    { title: "VU Events", url: "https://vu.nl/en/events"},
+    { title: "Library Availability", url: "https://vu-amsterdam.im-motion.net/"},
+    { title: "VU Thesis Search", url: "https://vu.nl/en/about-vu/divisions/university-library/more-about/uploading-your-thesis"},
 
   ],
 };
