@@ -28,6 +28,8 @@ const links = {
     { title: "Unofficial Y1 TU Delft Incoming Guidance", url: "https://docs.google.com/document/d/1y9kRZ5H1UIEsEbEe1jOKZiS72GPqX-wa3Na4-3uMb4E/edit?tab=t.y13v59u66kpb#heading=h.cjd47meacr5n" },
     { title: "VU / CS / AMS Guide by Applesauce", url: "https://csdiscdocs.gitbook.io/vu-cs-amst-guide"},
     { title: "Github Education Pack", url: "https://education.github.com/pack"},
+    { title: "Bachelor Introduction Days", url:"https://vu.nl/en/education/more-about/get-your-studies-off-to-a-great-start-by-joining-the-vu-introduction-days"},
+    { title: "VU Bookstore (Reading list)", url: "https://www.vuboekhandel.nl/app/stuver.p?language=4"},
   ],
 
   "GitHub / GitLab / Orgs": [
