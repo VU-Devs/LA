@@ -37,7 +37,7 @@ const links = {
     { title: "AtLarge CO/CN Github", url: "https://github.com/ComputerScienceEducation" },
     { title: "VU IVM Github", url: "https://github.com/VU-IVM" },
     { title: "Machine Learning @ VU Github", url: "https://github.com/mlvu"},
-    { title: "Deepl Learning @ VU", url: "https://github.com/dlvu"},
+    { title: "Deep Learning @ VU", url: "https://github.com/dlvu"},
     { title: "VU Programming Github", url: "https://github.com/VU-Programming" },
     { title: "VU StudSec Github", url: "https://github.com/StudSec/"},
     { title: "VU HPDC (High Performance Distributed Computing)", url:"https://www.vuhpdc.net/"},
