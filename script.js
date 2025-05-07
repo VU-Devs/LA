@@ -25,6 +25,7 @@ const links = {
   "Onboarding": [
     { title: "Studielink", url: "https://www.studielink.nl/" },
     { title: "Student Immigration", url: "http://studentimmigration.vu.nl/" },
+    { title: "An INCREDIBLE guide to VUreaucracy", url: "https://docs.google.com/document/d/1tlq0PJ7KAgUN11uV7hgOcO0rMDJ_nasxr5bIWWgsNwM/edit?tab=t.0#heading=h.iq2z1epx4wdu"},
     { title: "Unofficial Y1 TU Delft Incoming Guidance", url: "https://docs.google.com/document/d/1y9kRZ5H1UIEsEbEe1jOKZiS72GPqX-wa3Na4-3uMb4E/edit?tab=t.y13v59u66kpb#heading=h.cjd47meacr5n" },
     { title: "VU / CS / AMS Guide by Applesauce", url: "https://csdiscdocs.gitbook.io/vu-cs-amst-guide"},
     { title: "Github Education Pack", url: "https://education.github.com/pack"},
@@ -93,6 +94,9 @@ const links = {
     { title: "VU Events", url: "https://vu.nl/en/events"},
     { title: "Library Availability", url: "https://vu-amsterdam.im-motion.net/"},
     { title: "VU Thesis Search", url: "https://vu.nl/en/about-vu/divisions/university-library/more-about/uploading-your-thesis"},
+    { title: "International Collegiate Programming Contest", url: "https://icpc.global/"},
+    { title: "Northwestern Europe Regional Contest", url: "https://nwerc.eu"},
+    { title: "Benelux Algorithm Programming Contest", url: "https://bapc.eu"},
 
   ],
 };
