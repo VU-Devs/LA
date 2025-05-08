@@ -46,10 +46,11 @@ const links = {
     { title: "VU Sec (Systems and Network Security Group)", url: "https://www.vusec.net/"},
   ],
 
-  "Socials": [
+  "Socials / Groups": [
     { title: "VU Reddit", url: "https://www.reddit.com/r/VUAmsterdam/" },
     { title: "VU CS Discord", url: "https://discord.gg/MGG72qsKrn"},
     { title: "2025 CS Whatssap Group", url: "https://chat.whatsapp.com/HfHTgsechBVCP0xEO1Ez8g" },
+    { title: "SRVU Studentenbond",  url:"https://srvu.org/en/homepage/"},
     { title: "Icarus (Philosophy Student Club)", url: "https://www.instagram.com/vu.icarus/" },
     { title: "VU Pride", url: "https://linktr.ee/VUpride" },
     { title: "NDSA (Neurodiverse Student Association)", url: "https://linktr.ee/nd.sa" },
