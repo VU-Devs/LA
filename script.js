@@ -26,6 +26,7 @@ const links = {
     { title: "Studielink", url: "https://www.studielink.nl/" },
     { title: "Student Immigration", url: "http://studentimmigration.vu.nl/" },
     { title: "An INCREDIBLE guide to VUreaucracy", url: "https://docs.google.com/document/d/1tlq0PJ7KAgUN11uV7hgOcO0rMDJ_nasxr5bIWWgsNwM/edit?tab=t.0#heading=h.iq2z1epx4wdu"},
+    { title: "Housing guide", url: "https://docs.google.com/document/d/1ozPf7sfI6Auh0GI2xT_g7csGCrKKj4tCFkUJP1WMfyI/edit?tab=t.0"},
     { title: "Unofficial Y1 TU Delft Incoming Guidance", url: "https://docs.google.com/document/d/1y9kRZ5H1UIEsEbEe1jOKZiS72GPqX-wa3Na4-3uMb4E/edit?tab=t.y13v59u66kpb#heading=h.cjd47meacr5n" },
     { title: "VU / CS / AMS Guide by Applesauce", url: "https://csdiscdocs.gitbook.io/vu-cs-amst-guide"},
     { title: "Github Education Pack", url: "https://education.github.com/pack"},
