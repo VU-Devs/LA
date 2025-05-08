@@ -99,6 +99,7 @@ const links = {
     { title: "International Collegiate Programming Contest", url: "https://icpc.global/"},
     { title: "Northwestern Europe Regional Contest", url: "https://nwerc.eu"},
     { title: "Benelux Algorithm Programming Contest", url: "https://bapc.eu"},
+    { title: "German Collegiate Programming Contest 2025", url:"https://gcpc.nwerc.eu"},
 
   ],
 };
