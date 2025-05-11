@@ -17,7 +17,7 @@ const links = {
     { title: "Computer Organisation Lab Manual", url: "https://computerscienceeducation.gitbook.io/co-lab-manual" },
     { title: "Machine Learning", url: "https://mlvu.github.io/"},
     { title: "Deep Learning", url: "https://dlvu.github.io/"},
-    { title: "Systems Programming", url: "https://vu-oofp.gitlab.io/website/" },
+    { title: "Systems Programming / CoPP (Computer Programming Project)", url: "https://vu-oofp.gitlab.io/website/" },
     { title: "Databases", url: "https://joerg.endrullis.de/databases/"},
     { title: "Prof. Joerg Endrullis's Courses", url: "https://joerg.endrullis.de/teaching/" },
   ],
@@ -156,7 +156,11 @@ function renderSection(name, linksArray, filter) {
   list.className = "link-list";
 
   linksArray
-    .filter((link) => link.title.toLowerCase().includes(filter))
+    .filter(
+      (link) =>
+        link.title.toLowerCase().includes(filter) ||
+        link.url.toLowerCase().includes(filter)
+    )
     .forEach((link) => list.appendChild(createLinkElement(link)));
 
   section.appendChild(title);
@@ -180,8 +184,10 @@ function renderAll(filter = "") {
   }
 
   for (const [name, list] of Object.entries(links)) {
-    const filteredList = list.filter((link) =>
-      link.title.toLowerCase().includes(filter)
+    const filteredList = list.filter(
+      (link) =>
+        link.title.toLowerCase().includes(filter) ||
+        link.url.toLowerCase().includes(filter)
     );
     if (filteredList.length > 0) {
       sectionsContainer.appendChild(renderSection(name, filteredList, filter));
