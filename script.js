@@ -45,6 +45,7 @@ const links = {
     { title: "VU HPDC (High Performance Distributed Computing)", url:"https://www.vuhpdc.net/"},
     { title: "VU Studsec (Student Security)", url: "https://studsec.nl/"},
     { title: "VU Sec (Systems and Network Security Group)", url: "https://www.vusec.net/"},
+    { title: "CoPP (Computer Programming Project) and OOFP (Object-oriented and Functional programming)", url: "https://gitlab.com/vu-oofp"}
   ],
 
   "Socials / Groups": [
