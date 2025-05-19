@@ -47,6 +47,10 @@ const links = {
     { title: "VU Sec (Systems and Network Security Group)", url: "https://www.vusec.net/"},
     { title: "CoPP (Computer Programming Project) and OOFP (Object-oriented and Functional programming)", url: "https://gitlab.com/vu-oofp"},
     { title: "University Library Vrije Universiteit Amsterdam", url:"https://github.com/ubvu"},
+    { title: "Systems Biology Lab, Vrije Universiteit Amsterdam", url:"https://github.com/systemsbioinformatics"},
+    { title: "Software and Sustainability Group - VU Amsterdam", url: "https://github.com/s2-group"},
+    { title: "VU Autonomous Systems Engineering", url: "https://github.com/VU-ASE"},
+    { title: "VU Behavioural Lab", url: "https://vbl.labs.vu.nl/"},
   ],
 
   "Socials / Groups": [
