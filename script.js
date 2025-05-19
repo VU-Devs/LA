@@ -45,7 +45,8 @@ const links = {
     { title: "VU High Performance Distributed Computing (HPDC)", url:"https://www.vuhpdc.net/"},
     { title: "VU Studsec (Student Security)", url: "https://studsec.nl/"},
     { title: "VU Sec (Systems and Network Security Group)", url: "https://www.vusec.net/"},
-    { title: "CoPP (Computer Programming Project) and OOFP (Object-oriented and Functional programming)", url: "https://gitlab.com/vu-oofp"}
+    { title: "CoPP (Computer Programming Project) and OOFP (Object-oriented and Functional programming)", url: "https://gitlab.com/vu-oofp"},
+    { title: "University Library Vrije Universiteit Amsterdam", url:"https://github.com/ubvu"},
   ],
 
   "Socials / Groups": [
@@ -86,6 +87,8 @@ const links = {
     { title: "Storage Systems Slides (No longer taught)", url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT" },
     { title: "Object Oriented Functional Programming Kickoff", url: "https://docs.google.com/presentation/d/1fPS0RPnBqtMI9V6HB5G6yh0KsiyCC9kWCKRe8b-500U/edit?slide=id.g2fad02caa80_45_0#slide=id.g2fad02caa80_45_0"},
     { title: "Computer Networks 2023-2024", url: "https://computer-networks-lab.gitbook.io/computer-networks-lab-manual/assignments/dns" },
+    { title: "Department of Computer Science Website (For historical purposes)", url:"https://www.cs.vu.nl/~ast/"},
+    { title: "Virtual Laboratory for e-Science", url:"http://www.vl-e.nl/frame_home.htm"},
   ],
 
   "Misc": [
@@ -101,7 +104,7 @@ const links = {
     { title: "Northwestern Europe Regional Contest", url: "https://nwerc.eu"},
     { title: "Benelux Algorithm Programming Contest", url: "https://bapc.eu"},
     { title: "German Collegiate Programming Contest 2025", url:"https://gcpc.nwerc.eu"},
-
+    { title: "Advanced School for Computing and Imaging", url:"https://asci.school/"},
   ],
 };
 
