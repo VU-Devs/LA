@@ -13,12 +13,12 @@ const links = {
   ],
 
   "Lab Manuals / Course Sites": [
-    { title: "Computer Networks Lab Manual", url: "https://computerscienceeducation.gitbook.io/computer-networks-lab-manual" },
-    { title: "Computer Organisation Lab Manual", url: "https://computerscienceeducation.gitbook.io/co-lab-manual" },
-    { title: "Machine Learning", url: "https://mlvu.github.io/"},
-    { title: "Deep Learning", url: "https://dlvu.github.io/"},
-    { title: "Systems Programming / CoPP (Computer Programming Project)", url: "https://vu-oofp.gitlab.io/website/" },
-    { title: "Databases", url: "https://joerg.endrullis.de/databases/"},
+    { title: "Computer Networks (CN) Lab Manual", url: "https://computerscienceeducation.gitbook.io/computer-networks-lab-manual" },
+    { title: "Computer Organisation (CO) Lab Manual", url: "https://computerscienceeducation.gitbook.io/co-lab-manual" },
+    { title: "Machine Learning (ML)", url: "https://mlvu.github.io/"},
+    { title: "Deep Learning (DP)", url: "https://dlvu.github.io/"},
+    { title: "Systems Programming (SP) / CoPP (Computer Programming Project)", url: "https://vu-oofp.gitlab.io/website/" },
+    { title: "Databases (DB) ", url: "https://joerg.endrullis.de/databases/"},
     { title: "Prof. Joerg Endrullis's Courses", url: "https://joerg.endrullis.de/teaching/" },
   ],
 
@@ -38,11 +38,11 @@ const links = {
   "GitHub / GitLab / Orgs": [
     { title: "AtLarge CO/CN Github", url: "https://github.com/ComputerScienceEducation" },
     { title: "VU IVM Github", url: "https://github.com/VU-IVM" },
-    { title: "Machine Learning @ VU Github", url: "https://github.com/mlvu"},
-    { title: "Deep Learning @ VU", url: "https://github.com/dlvu"},
+    { title: "Machine Learning @ VU (MLVU) Github", url: "https://github.com/mlvu"},
+    { title: "Deep Learning @ (DLVU) VU", url: "https://github.com/dlvu"},
     { title: "VU Programming Github", url: "https://github.com/VU-Programming" },
     { title: "VU StudSec Github", url: "https://github.com/StudSec/"},
-    { title: "VU HPDC (High Performance Distributed Computing)", url:"https://www.vuhpdc.net/"},
+    { title: "VU High Performance Distributed Computing (HPDC)", url:"https://www.vuhpdc.net/"},
     { title: "VU Studsec (Student Security)", url: "https://studsec.nl/"},
     { title: "VU Sec (Systems and Network Security Group)", url: "https://www.vusec.net/"},
     { title: "CoPP (Computer Programming Project) and OOFP (Object-oriented and Functional programming)", url: "https://gitlab.com/vu-oofp"}
@@ -55,7 +55,7 @@ const links = {
     { title: "SRVU Studentenbond",  url:"https://srvu.org/en/homepage/"},
     { title: "Icarus (Philosophy Student Club)", url: "https://www.instagram.com/vu.icarus/" },
     { title: "VU Pride", url: "https://linktr.ee/VUpride" },
-    { title: "NDSA (Neurodiverse Student Association)", url: "https://linktr.ee/nd.sa" },
+    { title: "Neurodiverse Student Association (NDSA)", url: "https://linktr.ee/nd.sa" },
     { title: "Boosted Griffins (Gaming Group)", url: "https://www.instagram.com/boostedgryffins/" },
     { title: "Minescie (Minecraft)", url: "https://linktr.ee/minescie" },
     { title: "3D - VU (Gaming Discord)", url: "https://discord.gg/Ymae4vZ22s"},
