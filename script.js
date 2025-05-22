@@ -53,6 +53,7 @@ const links = {
     { title: "Intelligent Systems course", url: "https://github.com/intelligent-systems-course"},
     { title: "VU Autonomous Systems Engineering", url: "https://github.com/VU-ASE"},
     { title: "VU Behavioural Lab", url: "https://vbl.labs.vu.nl/"},
+    { title: "VU KARMA (Knowledge Acquisition, Reasoning, and MAnagement)", url: "https://github.com/karmaresearch"},
   ],
 
   "Socials / Groups": [
