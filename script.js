@@ -88,6 +88,7 @@ const links = {
     { title: "[External] The Art of Multiprocessor programming", url: "https://www.youtube.com/playlist?list=PLbsY-4I8oat9o7p4re3308L4uk0YJe8ez"},
     { title: "[External Category Theory]", url: "https://www.youtube.com/playlist?app=desktop&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_"},
     { title: "[External] Linear Algebra Organic Chem Tutor", url: "https://www.youtube.com/playlist?list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_"},
+    { title: "[External] Linear Algebra Trev Tutor", url: "https://www.youtube.com/playlist?list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_"},
     { title: "[External] Intro to x86 Assembly", url: "https://youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe"},
 
   ],
@@ -98,8 +99,8 @@ const links = {
 
   "Archived": [
     { title: "Storage Systems Slides (No longer taught)", url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT" },
-    { title: "Object Oriented Functional Programming Kickoff", url: "https://docs.google.com/presentation/d/1fPS0RPnBqtMI9V6HB5G6yh0KsiyCC9kWCKRe8b-500U/edit?slide=id.g2fad02caa80_45_0#slide=id.g2fad02caa80_45_0"},
-    { title: "Computer Networks 2023-2024", url: "https://computer-networks-lab.gitbook.io/computer-networks-lab-manual/assignments/dns" },
+    { title: "Object Oriented Functional Programming (OOFP) Kickoff", url: "https://docs.google.com/presentation/d/1fPS0RPnBqtMI9V6HB5G6yh0KsiyCC9kWCKRe8b-500U/edit?slide=id.g2fad02caa80_45_0#slide=id.g2fad02caa80_45_0"},
+    { title: "Computer Networks (CN) 2023-2024", url: "https://computer-networks-lab.gitbook.io/computer-networks-lab-manual/assignments/dns" },
     { title: "Department of Computer Science Website (For historical purposes)", url:"https://www.cs.vu.nl/~ast/"},
     { title: "Virtual Laboratory for e-Science", url:"http://www.vl-e.nl/frame_home.htm"},
   ],
