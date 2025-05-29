@@ -90,7 +90,6 @@ const links = {
     { title: "[External] Linear Algebra Organic Chem Tutor", url: "https://www.youtube.com/playlist?list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_"},
     { title: "[External] Linear Algebra Trev Tutor", url: "https://www.youtube.com/playlist?list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_"},
     { title: "[External] Intro to x86 Assembly", url: "https://youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe"},
-
   ],
 
   "Notes":[
