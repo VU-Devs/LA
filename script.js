@@ -18,6 +18,7 @@ const links = {
 			url: "https://pleq.vu.nl/studyspot?building=nu-gebouw",
 		},
 		{ title: "VU Library", url: "https://vu.on.worldcat.org/discovery" },
+		{ title: "VU Events and Workshops", url: "https://vu-nl.libcal.com/" },
 	],
 
 	"Lab Manuals / Course Sites": [
