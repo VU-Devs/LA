@@ -217,16 +217,16 @@ const links = {
 			url: "https://drive.google.com/drive/folders/10oCZuJJSBT3fJUIvhBsAzOFPUNNvJl-O",
 		},
 		{
+			title: "Databases",
+			url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO",
+		},
+		{
 			title: "[Masters] Transformers Lecture 12 ",
 			url: "https://www.youtube.com/playlist?list=PLIXJ-Sacf8u60G1TwcznBmK6rEL3gmZmV",
 		},
 		{
 			title: "[External] Theory of Computation and Automata",
 			url: "https://youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&si=y3dGXp0kHO0W5god",
-		},
-		{
-			title: "[External] Databases",
-			url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO",
 		},
 		{
 			title: "[External] The Art of Multiprocessor programming",
