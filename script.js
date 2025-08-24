@@ -38,7 +38,7 @@ const links = {
 		},
 		{ title: "Databases (DB) ", url: "https://joerg.endrullis.de/databases/" },
 		{
-			title: "Prof. Joerg Endrullis's Courses",
+			title: "Dr. Joerg Endrullis's Courses",
 			url: "https://joerg.endrullis.de/teaching/",
 		},
 		{
@@ -326,6 +326,10 @@ const links = {
 		{
 			title: "Advanced School for Computing and Imaging",
 			url: "https://asci.school/",
+		},
+		{
+			title: "Dr. Francesc Verdugo Assist Prof, HP(Scientific)C expert",
+			url: "https://www.francescverdugo.com/",
 		},
 	],
 };
