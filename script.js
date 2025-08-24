@@ -41,6 +41,10 @@ const links = {
 			title: "Prof. Joerg Endrullis's Courses",
 			url: "https://joerg.endrullis.de/teaching/",
 		},
+		{
+			title: "Programming Large-Scale Parallel Systems (XM_40017)",
+			url: "https://www.francescverdugo.com/XM_40017/dev/",
+		},
 	],
 
 	Onboarding: [
