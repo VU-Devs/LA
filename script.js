@@ -291,6 +291,12 @@ const links = {
 			title: "VU Services Uptime",
 			url: "https://stats.uptimerobot.com/1QklV7XO7U",
 		},
+
+		{
+			title: "Y1 CS Books",
+			url: "https://drive.google.com/drive/folders/1OZFyARWB_XzHpGBzLNO9LTgFNddDGgjb",
+		},
+
 		{
 			title: "Books",
 			url: "https://drive.google.com/drive/folders/1-mRDM9CoQKjDGkRMUBlgEsw7lgkex49v",
