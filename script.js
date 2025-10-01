@@ -19,6 +19,10 @@ const links = {
 		},
 		{ title: "VU Library", url: "https://vu.on.worldcat.org/discovery" },
 		{ title: "VU Events and Workshops", url: "https://vu-nl.libcal.com/" },
+		{
+			title: "Request copy of Exam [BETA]",
+			url: "https://fd20.formdesk.com/vuamsterdam/aanvraag_kopie_tentamen",
+		},
 	],
 
 	"Lab Manuals / Course Sites": [
@@ -318,6 +322,14 @@ const links = {
 		{
 			title: "Scastie: Run Scala Online",
 			url: "https://scastie.scala-lang.org/",
+		},
+		{
+			title: "Truth table generator",
+			url: "https://web.stanford.edu/class/cs103/tools/truth-table-tool/",
+		},
+		{
+			title: "Compiler Explorer: interactive online compiler",
+			url: "https://godbolt.org/",
 		},
 		{
 			title: "International Collegiate Programming Contest",
