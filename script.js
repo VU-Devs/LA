@@ -147,6 +147,10 @@ const links = {
 			title: "VU KARMA (Knowledge Acquisition, Reasoning, and MAnagement)",
 			url: "https://github.com/karmaresearch",
 		},
+		{
+			title: "Verification for Security ",
+			url: "https://github.com/verification-for-security",
+		},
 	],
 
 	"Socials / Groups": [
