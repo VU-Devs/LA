@@ -353,6 +353,10 @@ const links = {
 			title: "Dr. Francesc Verdugo Assist Prof, HP(Scientific)C expert",
 			url: "https://www.francescverdugo.com/",
 		},
+		{
+			title: "DISTRIBUTED-SYSTEMS.NET Dr. Maarten van Steen",
+			url: "https://www.distributed-systems.net/",
+		},
 	],
 };
 
