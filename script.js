@@ -193,7 +193,7 @@ const links = {
 			url: "https://www.youtube.com/playlist?list=PLAG9l-FNroVriSKJZH6Loo_hxQRr6PGRo",
 		},
 		{
-			title: "Secure Programming 2022",
+			title: "Secure Programming 2024",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpIKNDwGJwGrbboSQ7s6_TX",
 		},
 		{
@@ -201,8 +201,12 @@ const links = {
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwp4u1BbRfjAqOPf85x-NIFL",
 		},
 		{
-			title: "History of Science",
+			title: "History of Science 2024",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpZpQjZ8K5QxywsKqp0OzsP",
+		},
+		{
+			title: "Concurrency and Multithreading 2024",
+			url: "https://www.youtube.com/watch?v=P-XaDRTgdtw&list=PLDPQ0iP4MFwqSvtuZhokA-wgDfjOZlQBN",
 		},
 		{
 			title: "Object Oriented Funcional Programming",
