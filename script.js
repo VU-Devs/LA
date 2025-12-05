@@ -1,5 +1,5 @@
 const links = {
-	Essentials: [
+	"Essentials": [
 		{ title: "VU Dashboard", url: "https://vu.nl/en/dashboard" },
 		{ title: "Canvas", url: "https://canvas.vu.nl/" },
 		{ title: "CS Hub", url: "https://cs-hub.notion.site/" },
@@ -51,7 +51,7 @@ const links = {
 		},
 	],
 
-	Onboarding: [
+	"Onboarding": [
 		{ title: "Studielink", url: "https://www.studielink.nl/" },
 		{ title: "Student Immigration", url: "http://studentimmigration.vu.nl/" },
 		{
@@ -183,7 +183,7 @@ const links = {
 		{ title: "StudSec Discord", url: "https://url.studsec.nl/discord" },
 	],
 
-	Lectures: [
+	"Lectures": [
 		{
 			title: "Pervasive Computing 2021",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoFLNbdDAT845-pY5VNbNbf",
@@ -266,7 +266,7 @@ const links = {
 		},
 	],
 
-	Notes: [
+	"Notes": [
 		{
 			title:
 				"Alex Balgavy's BSc Computer Science and MSc Computer Systems Security Notes",
@@ -274,7 +274,7 @@ const links = {
 		},
 	],
 
-	Archived: [
+	"Archived": [
 		{
 			title: "Storage Systems Slides (No longer taught)",
 			url: "https://drive.google.com/drive/folders/1Ob994kg2UBFdrdgeEAReNILmCx7mSlxT",
@@ -297,7 +297,7 @@ const links = {
 		},
 	],
 
-	Misc: [
+	"Misc": [
 		{ title: "VU Link Aggregator", url: "https://vu-devs.github.io/LA/" },
 		{
 			title: "VU Services Uptime",
@@ -307,6 +307,11 @@ const links = {
 		{
 			title: "Y1 CS Books",
 			url: "https://drive.google.com/drive/folders/1OZFyARWB_XzHpGBzLNO9LTgFNddDGgjb",
+		},
+
+		{
+			title: "IJVM Web Studio",
+			url:"https://ijvm.roossien.dev/",
 		},
 
 		{
