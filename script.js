@@ -193,35 +193,35 @@ const links = {
 			url: "https://www.youtube.com/watch?v=nZlHf4V_kic&list=PLuQUxYHEVjGmXpRlx89zKea8f6VZrta_E&index=1",
 		},
 		{
-			title: "Deep Learning 2023",
+			title: "Deep Learning (CL) 2023",
 			url: "https://www.youtube.com/@dlvu6202/",
 		},
 		{
-			title: "Pervasive Computing 2021",
+			title: "Pervasive Computing 2021 (PC / SSE	)",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoFLNbdDAT845-pY5VNbNbf",
 		},
 		{
-			title: "Computer Networks 2021-2022",
+			title: "Computer Networks (CN) 2021-2022",
 			url: "https://www.youtube.com/playlist?list=PLAG9l-FNroVriSKJZH6Loo_hxQRr6PGRo",
 		},
 		{
-			title: "Secure Programming 2024",
+			title: "Secure Programming (SP) 2024",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpIKNDwGJwGrbboSQ7s6_TX",
 		},
 		{
-			title: "Advanced Networks Programming 2022",
+			title: "Advanced Networks Programming (ANP) 2022",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwp4u1BbRfjAqOPf85x-NIFL",
 		},
 		{
-			title: "History of Science 2024",
+			title: "History of Science (HoS) 2024",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpZpQjZ8K5QxywsKqp0OzsP",
 		},
 		{
-			title: "Concurrency and Multithreading 2024",
+			title: "Concurrency and Multithreading (CM) 2024",
 			url: "https://www.youtube.com/watch?v=P-XaDRTgdtw&list=PLDPQ0iP4MFwqSvtuZhokA-wgDfjOZlQBN",
 		},
 		{
-			title: "Object Oriented Funcional Programming",
+			title: "Object Oriented Funcional Programming (OOFP)",
 			url: "https://www.youtube.com/playlist?list=PLi-VVX8q87FL9tRKOmkCKitubGyr4OdYR",
 		},
 		{
@@ -229,11 +229,11 @@ const links = {
 			url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478cNgQa7UTnEdFkXzii5CII",
 		},
 		{
-			title: "Computer Organisation",
+			title: "Computer Organisation (CO)",
 			url: "https://drive.google.com/drive/folders/10dh_luALWgaKXOWgcFf6i_aHCBc6MvbL",
 		},
 		{
-			title: "Compiler Construction",
+			title: "Compiler Construction (CoCo)",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwonksLKVQwHMF8cJ1FSXyy2",
 		},
 		{
@@ -241,12 +241,16 @@ const links = {
 			url: "https://drive.google.com/drive/folders/1kYJ9NvsZ7u0vRu4o4KhAH5ocGqexYj16",
 		},
 		{
-			title: "Requirements Engineering",
+			title: "Requirements Engineering (RE)",
 			url: "https://drive.google.com/drive/folders/10oCZuJJSBT3fJUIvhBsAzOFPUNNvJl-O",
 		},
 		{
-			title: "Databases",
+			title: "Databases (DB)",
 			url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO",
+		},
+		{
+			title: "Operating Systems (OS)",
+			url: "https://www.youtube.com/watch?v=PsD-y4Zf_CM&list=PLDPQ0iP4MFwq_oSjnNcUI8yZtanj8urHo",
 		},
 		{
 			title: "Knowledge and Data vu Amsterdam",
