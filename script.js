@@ -193,6 +193,10 @@ const links = {
 			url: "https://www.youtube.com/watch?v=nZlHf4V_kic&list=PLuQUxYHEVjGmXpRlx89zKea8f6VZrta_E&index=1",
 		},
 		{
+			title: "Deep Learning 2023",
+			url: "https://www.youtube.com/@dlvu6202/",
+		},
+		{
 			title: "Pervasive Computing 2021",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoFLNbdDAT845-pY5VNbNbf",
 		},
