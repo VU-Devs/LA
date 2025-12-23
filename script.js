@@ -185,6 +185,14 @@ const links = {
 
 	"Lectures": [
 		{
+			title: "Machine Learning (MLVU) 2020",
+			url: "https://www.youtube.com/watch?v=excCZSTJEPs&list=PLCof9EqayQgthR7IViXkAkUwel_rhxGYM",
+		},
+		{
+			title: "Deep Learning (DLVU) 2020",
+			url: "https://www.youtube.com/watch?v=nZlHf4V_kic&list=PLuQUxYHEVjGmXpRlx89zKea8f6VZrta_E&index=1",
+		},
+		{
 			title: "Pervasive Computing 2021",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoFLNbdDAT845-pY5VNbNbf",
 		},
@@ -235,6 +243,10 @@ const links = {
 		{
 			title: "Databases",
 			url: "https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO",
+		},
+		{
+			title: "Knowledge and Data vu Amsterdam",
+			url: "https://www.youtube.com/@knowledgeanddatavuamsterda8578/videos"
 		},
 		{
 			title: "[Masters] Transformers Lecture 12 ",
