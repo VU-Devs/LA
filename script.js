@@ -205,6 +205,10 @@ const links = {
 			url: "https://www.youtube.com/playlist?list=PLAG9l-FNroVriSKJZH6Loo_hxQRr6PGRo",
 		},
 		{
+			title: "Logic and Sets (LS) 2022",
+			url: "https://www.youtube.com/watch?v=ajlbZ_PBQKE&list=PLDPQ0iP4MFwr1jkMsGU5cDYdlEVBDUAVg",
+		},
+		{
 			title: "Secure Programming (SP) 2024",
 			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwpIKNDwGJwGrbboSQ7s6_TX",
 		},
