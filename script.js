@@ -131,6 +131,10 @@ const links = {
 			url: "https://github.com/systemsbioinformatics",
 		},
 		{
+			title: "VU Web Technology course Github",
+			url: "https://github.com/vu-webtech-class",
+		},
+		{
 			title: "Software and Sustainability Group - VU Amsterdam",
 			url: "https://github.com/s2-group",
 		},
