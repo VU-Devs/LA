@@ -269,6 +269,10 @@ const links = {
 			url: "https://www.youtube.com/playlist?list=PLIXJ-Sacf8u60G1TwcznBmK6rEL3gmZmV",
 		},
 		{
+			title: "Web Technologies 2026",
+			url: "https://www.youtube.com/playlist?list=PLDPQ0iP4MFwoDcx_65ppPvwqAXopBFHyb",
+		},
+		{
 			title: "[External] Theory of Computation and Automata",
 			url: "https://youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&si=y3dGXp0kHO0W5god",
 		},
@@ -338,6 +342,16 @@ const links = {
 		},
 
 		{
+			title: "Mobility @ VU / VU Exchange webpages",
+			url: "https://mobility.vu.nl/mobility/LoginServlet"
+		},
+
+		{
+			title: "VU Research Support Handbook (RDM)",
+			url: "https://rdm.vu.nl/"
+		},
+
+		{
 			title: "IJVM Web Studio",
 			url:"https://ijvm.roossien.dev/",
 		},
@@ -393,6 +407,31 @@ const links = {
 		{
 			title: "DISTRIBUTED-SYSTEMS.NET Dr. Maarten van Steen",
 			url: "https://www.distributed-systems.net/",
+		},
+
+		{
+			title: "VU Starthub",
+			url: "https://vu-ondernemend.nl/vu-starthub",
+		},
+
+		{
+			title: "Deep-ML",
+			url: "https://www.deep-ml.com/",
+		},
+
+		{
+			title: "Codewars",
+			url: "https://www.codewars.com/",
+		},
+
+		{
+			title: "VU Behavioural Lab - SONA",
+			url: "https://vu-vbl.sona-systems.com/Main.aspx",
+		},
+
+		{
+			title: "Abseil Fast Hints",
+			url: "https://abseil.io/fast/hints.html",
 		},
 	],
 };
